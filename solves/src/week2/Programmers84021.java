@@ -6,7 +6,6 @@ class Programmers84021 {
 
     static int[] dx = {-1, 0, 1, 0};
     static int[] dy = {0, 1, 0, -1};
-    static int answer = 0;
 
     public static class Figure {
 
@@ -35,33 +34,22 @@ class Programmers84021 {
 
     public static int solution(int[][] game_board, int[][] table) {
 
+        int answer = 0;
+
         List<Figure> figureList = getFigureSet(table, 1);
         List<Figure> targetList = getFigureSet(game_board, 0);
         boolean[] visited = new boolean[figureList.size()];
 
-        recursive(figureList, targetList, visited, 0, 0);
+        for (Figure target : targetList) {
+            for (int i = 0; i < figureList.size(); i++) {
+                if (visited[i]) continue;
+                if (figureList.get(i).posList.size() != target.posList.size()) continue;
+                if (!isIntoTarget(target, figureList.get(i))) continue;
+                visited[i] = true;
+                answer += target.posList.size();
+            }
+        }
         return answer;
-    }
-
-    public static void recursive(List<Figure> figureList, List<Figure> targetList, boolean[] visited, int depth, int temp) {
-
-        if (depth == targetList.size()) {
-            if (answer < temp) answer = temp;
-            return ;
-        }
-
-        Figure target = targetList.get(depth);
-
-        recursive(figureList, targetList, visited, depth + 1, temp);
-        for (int i = 0; i < figureList.size(); i++) {
-            Figure figure = figureList.get(i);
-            if (visited[i]) continue;
-            if (figure.posList.size() != target.posList.size()) continue;
-            if (!isIntoTarget(target, figure)) continue;
-            visited[i] = true;
-            recursive(figureList, targetList, visited, depth + 1, temp + figure.posList.size());
-            visited[i] = false;
-        }
     }
 
     public static int[][] getBoard(List<Pos> posList) {

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f49eba6c-5689-4d11-8b2e-83d94f76829b" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/src/week4/Baekjoon1197.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week4/Baekjoon13424.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week4/Baekjoon16986.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week4/Programmers12924.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week4/Programmers70129.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/solved/week3/Baekjoon1647.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/solved/week3/Baekjoon1647.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/jpa-buddy.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/out/production/solved/week1/Baekjoon1916$Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/out/production/solved/week1/Baekjoon1916.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/out/production/solved/week1/Baekjoon2616.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/solved.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/week1/Baekjoon1916.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/week1/Baekjoon2616.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/week1/Programmers12909.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/week1/Programmers12939.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../untitled/src/week1/Programmers12951.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GUDO9B217I2r6I5qZiYULiH1dk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/hyunklee/Desktop/study/algostudy/solves&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  }
+}</component>
+  <component name="RunManager" selected="애플리케이션.Baekjoon13424">
+    <configuration name="Baekjoon1197" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week4.Baekjoon1197" />
+      <module name="solved" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Baekjoon13424" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week4.Baekjoon13424" />
+      <module name="solved" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Baekjoon1647" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week3.Baekjoon1647" />
+      <module name="solved" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Baekjoon2239" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week3.Baekjoon2239" />
+      <module name="solved" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="week3.Baekjoon11049" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week3.Baekjoon11049" />
+      <module name="solved" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="애플리케이션.Baekjoon13424" />
+        <item itemvalue="애플리케이션.Baekjoon1197" />
+        <item itemvalue="애플리케이션.Baekjoon1647" />
+        <item itemvalue="애플리케이션.Baekjoon2239" />
+        <item itemvalue="애플리케이션.week3.Baekjoon11049" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="f49eba6c-5689-4d11-8b2e-83d94f76829b" name="변경" comment="" />
+      <created>1666434233589</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666434233589</updated>
+      <workItem from="1666434234729" duration="6521000" />
+      <workItem from="1666612083069" duration="3547000" />
+      <workItem from="1667017329316" duration="5003000" />
+      <workItem from="1667055762543" duration="738000" />
+      <workItem from="1667318866526" duration="5319000" />
+      <workItem from="1667386152552" duration="7983000" />
+      <workItem from="1667498099093" duration="87000" />
+      <workItem from="1667562532469" duration="1698000" />
+      <workItem from="1667645794366" duration="7856000" />
+      <workItem from="1667734652979" duration="10000" />
+      <workItem from="1668249494368" duration="7359000" />
+      <workItem from="1668263631657" duration="185000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

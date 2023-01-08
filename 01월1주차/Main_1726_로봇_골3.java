@@ -18,7 +18,7 @@ public class Main_1726_로봇_골3 {
 		}
 	}
 
-	public static int[] dx = { 0, 0, 1, -1 };
+	public static int[] dx = { 0, 0, 1, -1 }; //동서남북0123
 	public static int[] dy = { 1, -1, 0, 0 };
 	static int[][] map;
 	static boolean[][][] visit;
@@ -39,7 +39,7 @@ public class Main_1726_로봇_골3 {
 			for (int j = 0; j < C; j++) {
 				map[i][j] = Integer.parseInt(st.nextToken());
 			}
-		}
+		} //입력끝
 		st = new StringTokenizer(br.readLine());
 		sr = Integer.parseInt(st.nextToken()) - 1;
 		sc = Integer.parseInt(st.nextToken()) - 1;
@@ -70,7 +70,7 @@ public class Main_1726_로봇_골3 {
 			}
 
 			
-			for (int j = 1; j <= 3; j++) {
+			for (int j = 1; j <= 3; j++) { //얼마나 가야할지 모르니까 되는 칸까지 시도
 				int nx = robot.r + dx[robot.d] * j;
 				int ny = robot.c + dy[robot.d] * j;
 
@@ -89,7 +89,8 @@ public class Main_1726_로봇_골3 {
 			}
 
 			int left = 0, right = 0;
-
+			//0 동 1서 2남 3북
+			//다음 방향 제시
 			switch (robot.d) {
 			case 0:
 				left = 3;
@@ -121,3 +122,10 @@ public class Main_1726_로봇_골3 {
 		}
 	}
 }
+
+/*
+ * 처음에 생각해보고 도저히 모르겠어서 답지를 보고 거의 배낀.. 코드.. 
+ * 방향 때문에 방문체크배열을 3차원을 해줬어야했다
+ * 자꾸 한꺼번에 처리하려고 생각하는것 같음.. 나눠서.. 모든 경우의 수를 큐에 다 때려박는다는 생각으로..
+ * 흑흑 */
+ 

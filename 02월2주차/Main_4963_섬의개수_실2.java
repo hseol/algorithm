@@ -24,43 +24,42 @@ import java.util.StringTokenizer;
  * 
  */
 public class Main_4963_섬의개수_실2 {
-	static int N, M, first, end, map[][], count = 0;
+	static int N, M, map[][], count = 0;
 	static boolean visited[][];
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
 		st = new StringTokenizer(br.readLine());
-		first = Integer.parseInt(st.nextToken());
-		end = Integer.parseInt(st.nextToken());
-		while (first != 0 && end != 0) {
-			
-			System.out.println(first+" "+end);
-			map = new int[first][end];
-			visited = new boolean[first][end];
-			count=0;
-			for (int i = 0; i < first; i++) {
+		M = Integer.parseInt(st.nextToken());
+		N = Integer.parseInt(st.nextToken());
+		StringBuilder sb = new StringBuilder();
+		while (N != 0 && M != 0) {
+
+			map = new int[N][M];
+			visited = new boolean[N][M];
+			count = 0;
+			for (int i = 0; i < N; i++) {
 				st = new StringTokenizer(br.readLine());
-				for (int j = 0; j < end; j++) {
+				for (int j = 0; j < M; j++) {
 					map[i][j] = Integer.parseInt(st.nextToken());
 				}
 			} // 입력끝
 
-			for (int i = 0; i < first; i++) {
-				for (int j = 0; j < end; j++) {
+			for (int i = 0; i < N; i++) {
+				for (int j = 0; j < M; j++) {
 					if (map[i][j] == 1 && !visited[i][j]) {
 						count++;
-						System.out.println(i+" "+j);
 						dfs(i, j);
 					}
 				}
 			}
-			System.out.println(count);
+			sb.append(count).append("\n");
 			st = new StringTokenizer(br.readLine());
-			first = Integer.parseInt(st.nextToken());
-			end = Integer.parseInt(st.nextToken());
-			System.out.println("====================================");
+			M = Integer.parseInt(st.nextToken());
+			N = Integer.parseInt(st.nextToken());
 		}
+		System.out.println(sb.toString());
 
 	}
 
@@ -71,7 +70,7 @@ public class Main_4963_섬의개수_실2 {
 		for (int d = 0; d < 8; d++) {
 			int nr = r + dr[d];
 			int nc = c + dc[d];
-			if (nr < 0 || nc < 0 || nr >= first || nc >= end || map[nc][nc] == 0 || visited[nr][nc]) {
+			if (nr < 0 || nc < 0 || nr >= N || nc >= M || map[nr][nc] == 0 || visited[nr][nc]) {
 				continue;
 			}
 			visited[nr][nc] = true;

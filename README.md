@@ -2,7 +2,7 @@
 
 ## 📌 규칙
 
-1. 알고리즘 풀이는 매주 월요일 오후 10시( ~ 월요일 00시까지 제출)
+1. 알고리즘 풀이는 매주 월요일 자정( ~ 월요일 00시까지 제출)
 2. 문제 난이도     
 	공통: 백준 기준 골드 , 프로그래머스 기준 레벨 3~4 (사이트 추가 가능)    
 	자율: 실버 4 이상    
@@ -12,7 +12,7 @@
 6. 취뽀할때까지 탈출 불가
 7. 전원 취뽀 후 벌금으로 단체 맛난거 냠냠냠
 8. 공통 문제는 매주 순서대로 한 명이 출제    
-	은열 -> 지연 -> 허설 -> 고빼시
+	지연 -> 허설 -> 고빼시
 ## ✏️ 문제 풀이 리스트
 
 ### 2022년 10월
@@ -65,4 +65,4 @@
 | 1주차<br />(02.27. ~ 03.05.) | `GOLD3`<br /> `GOLD4`<br /> `SILVER1`<br />`SILVER2`<br /> `Level4`<br /> | [서울지하철2호선](https://www.acmicpc.net/problem/16947)<br /> [게리맨더링](https://www.acmicpc.net/problem/17471)<br /> [IOIOI](https://www.acmicpc.net/problem/5525)<br />[잃어버린괄호](https://www.acmicpc.net/problem/1541)<br /> [저자별카테고리별매출](https://school.programmers.co.kr/learn/courses/30/lessons/144856)<br />  | [JAVA](https://github.com/CheonjaeAlgo/algorithm/blob/seol/03월1주차/Main_16947_서울지하철2호선_골3.java)<br /> [JAVA](https://github.com/CheonjaeAlgo/algorithm/blob/seol/03월1주차/Main_17471_게리맨더링_골4.java)<br /> [JAVA](https://github.com/CheonjaeAlgo/algorithm/blob/seol/03월1주차/Main_5525_IOIOI_실1.java)<br />[JAVA](https://github.com/CheonjaeAlgo/algorithm/blob/seol/03월1주차/Main_1541_잃어버린괄호_실2.java)<br /> [MySQL](https://github.com/hseol/algorithm/blob/seol/03%EC%9B%941%EC%A3%BC%EC%B0%A8/%EC%A0%80%EC%9E%90%20%EB%B3%84%20%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC%20%EB%B3%84%20%EB%A7%A4%EC%B6%9C%EC%95%A1%20%EC%A7%91%EA%B3%84%ED%95%98%EA%B8%B0_LEVEL4.sql)<br /> |
 | 2주차<br />(03.06. ~ 03.12.) |면접공가   |    |  |
 | 3주차<br />(03.13. ~ 03.19.) | `GOLD4`<br /> `GOLD5`<br /> `SILVER1`<br /> `SILVER1`<br /> `SILVER2`<br />  | [암벽등반](https://www.acmicpc.net/problem/2412)<br /> [색종이와가위](https://www.acmicpc.net/problem/20444)<br /> [전쟁-전투](https://www.acmicpc.net/problem/1303)<br /> [에너지모으기](https://www.acmicpc.net/problem/16198)<br />[DNA비밀번호](https://www.acmicpc.net/problem/12891)<br />    | [JAVA](https://github.com/CheonjaeAlgo/algorithm/blob/seol/03월3주차/Main_2412_암벽등반_골4.java)<br /> [JAVA](https://github.com/CheonjaeAlgo/algorithm/blob/seol/03월3주차/Main_20444_색종이와가위_골5.java)<br /> [JAVA](https://github.com/CheonjaeAlgo/algorithm/blob/seol/03월3주차/Main_1303_전쟁전투_실1.java.java)<br />[JAVA](https://github.com/CheonjaeAlgo/algorithm/blob/seol/03월3주차/Main_16198_에너지모으기_실1.java)<br /> [JAVA](https://github.com/CheonjaeAlgo/algorithm/blob/seol/03월3주차/Main_12891_DNA비밀번호_실2.java.java)<br />  |
-
+| 4주차<br />(03.20. ~ 03.26.) | `GOLD3`<br /> `GOLD5`<br />`SILVER1`<br />`LEVEL2`<br />`LEVEL4`<br />   |  [행렬곱셈순서](https://www.acmicpc.net/problem/11049)<br /> [퇴사2](https://www.acmicpc.net/problem/15486)<br /> [영역구하기](https://www.acmicpc.net/problem/2583)<br /> [호텔대실](https://school.programmers.co.kr/learn/courses/30/lessons/155651)<br />[5월총매출조회](https://school.programmers.co.kr/learn/courses/30/lessons/131117)<br />    | [JAVA](https://github.com/CheonjaeAlgo/algorithm/blob/seol/03월4주차/Main_11049_행렬곱셈순서_골3.java)<br /> [JAVA](https://github.com/CheonjaeAlgo/algorithm/blob/seol/03월4주차/Main_15486_퇴사2_골5.java)<br /> [JAVA](https://github.com/CheonjaeAlgo/algorithm/blob/seol/03월4주차/Main_2583_영역구하기_실1.java)<br />[JAVA](https://github.com/CheonjaeAlgo/algorithm/blob/seol/03월4주차/Solution_155651_호텔대실_level2.java)<br /> [MySQL](https://github.com/CheonjaeAlgo/algorithm/blob/seol/03월4주차/5월식품총매출조회_level4.sql)<br />  |
